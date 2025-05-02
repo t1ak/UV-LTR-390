@@ -1,4 +1,4 @@
-# UV-LTR-390
+#  Ultra Violet  sensor LTR-390
 simple test driver for LTR-390 written in LUA 
 
 ## Dependencies
