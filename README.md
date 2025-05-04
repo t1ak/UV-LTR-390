@@ -22,3 +22,7 @@ These variables are updated in cycles from 200 to 1000 msec depending on the set
 ### function setBits(b)
   if b==nil then print(' b: 13, 16, 17, 18, 19, 20 bits ') end
 
+## Averaged measurements from the LTR390 sensor illuminated with constant light from a UV diode, voltage: 3.17 V and current 21 mA
+
+https://alfard.ovh/index.php/pomiary-ultrafioletu/#LTR390cal
+
