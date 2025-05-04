@@ -1,5 +1,5 @@
 #  Ultra Violet  sensor LTR-390
-simple test driver for LTR-390 written in LUA 
+simple test driver for LTR-390 written in LUA (c) Tad1ak 2025
 
 ## Dependencies
 
@@ -8,8 +8,8 @@ LTR390.lua have been tested with Lua 5.1.4 on ESP-IDF v3.3-beta1 integer build T
   
 ## functionalities
 
-Obtaining UV and ASL values ​​involves reading the global variables:
-* uv_value and 
+Obtaining UV and ASL values ​​involves reading the two global variables:
+* uv_value
 * light_value
 
 These variables are updated in cycles from 200 to 1000 msec depending on the set resolution
@@ -17,8 +17,8 @@ These variables are updated in cycles from 200 to 1000 msec depending on the set
 
 ### function setGain(g)
 
-  if g==nil then print(' 1,3,6,9,18 ') end
+  if g==nil then print(' g: 1,3,6,9,18 ') end
 
 ### function setBits(b)
-  if b==nil then print(' set 13, 16, 17, 18, 19, 20 bits ') end
+  if b==nil then print(' b: 13, 16, 17, 18, 19, 20 bits ') end
 
