@@ -8,7 +8,10 @@ LTR390.lua have been tested with Lua 5.1.4 on ESP-IDF v3.3-beta1 integer build T
   
 ## functions
 
-Obtaining UV and ASL values ​​involves reading the uv_value and light_value variables.
+Obtaining UV and ASL values ​​involves reading the global variables:
+*uv_value and 
+*light_value
+These variables are updated in cycles from 200 to 1000 msec depending on the set resolution
 
 setGain(g)
   if g==nil then print(' 1,3,6,9,18 ') end
